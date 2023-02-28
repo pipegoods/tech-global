@@ -59,7 +59,7 @@ The blockquote element represents content that is quoted from another source, op
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <title>Example HTML5 Document</title>
