@@ -17,9 +17,10 @@ Se reciben PR y issues en este proyecto relacionados con mejoras en la plataform
 
 1. Haz un fork del proyecto
 2. Crea una rama con tu nombre de usuario y el contenido que vas a agregar
-3. Haz un PR con la descripción del contenido que agregaste
-4. Espera a que el PR sea revisado y aprobado
-5. ¡Listo! Tu contribución será revisada y aprobada por los administradores del proyecto
+3. Ve a la carpeta Blog o Member y crea un archivo .md o clona uno existente
+4. Haz un PR con la descripción del contenido que agregaste
+5. Espera a que el PR sea revisado y aprobado
+6. ¡Listo! Tu contribución será revisada y aprobada por los administradores del proyecto
 
 
 ## ¿Cómo reportar un error?
