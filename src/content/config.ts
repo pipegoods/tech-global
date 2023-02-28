@@ -26,7 +26,8 @@ const member = defineCollection({
 		linkedin: z.string().optional(),
 		twitter: z.string().optional(),
 		github: z.string().optional(),
-		tech: z.array(z.string()).optional(),
+		portfolio: z.string().optional(),
+		techs: z.array(z.string()).optional(),
 	}),
 });
 
