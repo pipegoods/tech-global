@@ -5,6 +5,11 @@ import Layout from "../layouts/Layout.astro";
 
 const members = await getCollection("member");
 const posts = await getCollection("blog");
+
+// Sort posts by date
+posts.sort((a, b) => {
+  return b.data.pubDate.getDate() - a.data.pubDate.getDate();
+});
 ---
 
 <Layout title="Inicio">
