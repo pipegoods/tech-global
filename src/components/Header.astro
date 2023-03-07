@@ -3,21 +3,18 @@ import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE } from "../consts";
 ---
 
-<header class="mb-8">
+<header class="mb-8 flex gap-5 items-center">
   <a href="/">
-    <h2 class="text-3xl font-bold flex items-center gap-2 my-5">
+    <h2 class="text-3xl font-bold inline-flex items-center gap-2 my-5">
       {SITE_TITLE}
       <span class="p-1 text-2xl uppercase bg-blue-600 text-white rounded-lg"
         >Co</span
       >
     </h2>
   </a>
-  <!-- <nav>
-    <HeaderLink href="/">Inicio</HeaderLink>
-    <HeaderLink href="/blog">Blog</HeaderLink>
-    <HeaderLink href="/about">Acerca de</HeaderLink>
-    <HeaderLink href="https://discord.gg/Bg4gPhqp" target="_blank">
-      Discord
+  <nav>
+    <HeaderLink href="https://github.com/pipegoods/tech-global" target="_blank">
+      Subir contenido
     </HeaderLink>
-  </nav> -->
+  </nav>
 </header>
